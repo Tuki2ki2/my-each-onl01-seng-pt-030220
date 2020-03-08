@@ -8,6 +8,8 @@ def my_each (words) # put argument(s) here  # code here
     i = i +1
   end
   words
+else
+  
 end
 end
 
