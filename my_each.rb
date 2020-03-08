@@ -13,4 +13,3 @@ my_each(words) do
   words.each do |m|
   puts "#{m}"
 end
-end
