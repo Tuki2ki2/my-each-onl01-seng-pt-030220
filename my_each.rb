@@ -15,7 +15,7 @@ end
 
 
 my_each(words) do
-  words.each do |m|
+  while i < words.length
   return "#{m}"
 end
 end
