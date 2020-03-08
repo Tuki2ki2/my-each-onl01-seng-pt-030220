@@ -1,3 +1,5 @@
+words = ['hi', 'hello', 'bye', 'goodbye']
+
 def my_each (words) # put argument(s) here  # code here
   if block_given?
   i = 0
