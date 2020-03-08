@@ -13,5 +13,4 @@ my_each(words) do
   words.each |m|
   puts m
 end
-words
 end
