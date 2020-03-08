@@ -1,5 +1,4 @@
-def my_each (words)# put argument(s) here
-  # code here
+def my_each (words) # put argument(s) here  # code here
   if block_given?
   i = 0
   while i < words.length
@@ -10,8 +9,9 @@ def my_each (words)# put argument(s) here
 end
 
 
-my_each (words)
-  words.each do |word|
-  puts word
+my_each(words) do
+  words.each |m|
+  puts m
 end
+words
 end
