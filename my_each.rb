@@ -10,6 +10,7 @@ def my_each (words)# put argument(s) here
   words
 end
 
-words.each do |word|
+my_each (words)
+  words.each do |word|
   puts word
 end
