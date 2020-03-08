@@ -9,13 +9,13 @@ def my_each (words) # put argument(s) here  # code here
   end
   words
 else
-  
+
 end
 end
 
 
 my_each(words) do
   words.each do |m|
-  puts "#{m}"
+  return "#{m}"
 end
 end
