@@ -10,7 +10,7 @@ end
 
 
 my_each(words) do
-  words.each |m|
+  words.each do |m|
   puts "#{m}"
 end
 end
