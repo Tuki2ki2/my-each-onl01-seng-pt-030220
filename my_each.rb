@@ -17,7 +17,7 @@ end
 my_each(words) do
   i = 0
   while i < words.length
-  return "#{m}"
+  return words[i]
   i += 1
 end
 end
